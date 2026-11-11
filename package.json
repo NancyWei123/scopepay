@@ -1,0 +1,16 @@
+{
+  "name": "scopepay",
+  "version": "0.1.0",
+  "private": true,
+  "description": "An AI scope-negotiation workspace with PayPal sandbox change orders.",
+  "type": "module",
+  "engines": { "node": ">=22.9" },
+  "license": "MIT",
+  "scripts": {
+    "dev": "node --env-file-if-exists=.env scripts/dev.mjs",
+    "start": "node --env-file-if-exists=.env scripts/dev.mjs",
+    "build": "node scripts/build.mjs",
+    "test": "node --test",
+    "validate": "node scripts/validate-artifact.mjs"
+  }
+}
